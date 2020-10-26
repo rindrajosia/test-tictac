@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  background-color: #eceef1;
+}
+
+ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font {
+  font-family: arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  background-color: #0077c5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.box {
+  box-sizing: border-box;
+}
+
+.navigation {
+  height: 60px;
+  width: 100%;
+}
+
+.top {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.navigation-container {
+  height: 36px;
+  width: 293.28px;
+  margin-top: 10px;
+}
+
+.navigation-column-left {
+  height: 36px;
+  width: 170.72px;
+  margin-right: 10px;
+}
+
+.navigation-column-left div {
+  color: #505050;
+}
+
+.navigation-column-left a {
+  color: #0077c5;
+}
+
+.navigation-column-right {
+  height: 35px;
+  width: 103px;
+}
+
+.sign-in {
+  height: 34px;
+  width: 102.56px;
+  color: white;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.icon {
+  width: 0.9rem;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+
+section {
+  height: 900px;
+  width: 100%;
+}
+
+.center {
+  box-sizing: border-box;
+  height: 800px;
+  width: 400px;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.logo {
+  display: block;
+  height: 70px;
+}
+
+.container-button {
+  height: 42px;
+  margin-top: 10px;
+}
+
+.icon-logo {
+  width: 29px;
+  margin: 0 1px 0 10px;
+  vertical-align: middle;
+}
+
+.logo-title {
+  color: #505050;
+  font-size: 17px;
+}
+
+.form {
+  padding: 30px 30px 0 10px;
+  border: 1px solid #c1c5c8;
+  background-color: #fff;
+}
+
+.title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #505050;
+}
+
+.title-description {
+  display: block;
+  margin: auto;
+  width: 300px;
+  text-align: center;
+  padding: 20px 0 0;
+  font-size: 14px;
+  color: #505050;
+}
+
+.title-description a {
+  font-size: 12px;
+  color: #1777c5;
+}
+
+.input-container {
+  margin: 15px 10px 15px 25px;
+}
+
+label {
+  font-size: 14px;
+  line-height: 25px;
+  color: #404040;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 17px;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  outline: none;
+}
+
+input:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 10px rgba(30, 144, 25, 0.5);
+}
+
+.warning {
+  font-size: 10px;
+  line-height: 15px;
+  color: #505050;
+}
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon input[type="password"] {
+  width: 100%;
+  padding-right: 35px;
+}
+
+.icon-lock-open {
+  width: 27px;
+  bottom: 5px;
+  right: 5px;
+  position: absolute;
+}
+
+.input-container button {
+  font-size: 15px;
+  height: 44px;
+  width: 100%;
+  color: #fff;
+  background-color: #0077c5;
+  border: 1px solid gray;
+  border-radius: 2px;
+  transition-duration: 0.4s;
+}
+
+.input-container button:hover {
+  opacity: 0.9;
+}
+
+.icon-lock {
+  margin-right: 10px;
+}
+
+.board {
+  display: none;
+  border: 1px solid #c1c5c8;
+  background-color: #fff;
+  padding-top: 10px;
+}
+
+#myTable {
+  display: table;
+  width: 50%;
+  height: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: 30px auto;
+}
+
+.row {
+  display: table-row;
+  height: 100%;
+  border-bottom: 1px solid #ddd;
+  background-color: #f3f3f3;
+}
+
+.cell {
+  display: table-cell;
+  width: 33%;
+  height: 100%;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 1rem;
+}
+
+#newplayer {
+  margin-left: 5px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
