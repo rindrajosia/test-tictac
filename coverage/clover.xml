@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1603918479701" clover="3.2.0">
-  <project timestamp="1603918479701" name="All files">
+<coverage generated="1603918808722" clover="3.2.0">
+  <project timestamp="1603918808722" name="All files">
     <metrics statements="37" coveredstatements="36" conditionals="15" coveredconditionals="13" methods="21" coveredmethods="21" elements="73" coveredelements="70" complexity="0" loc="37" ncloc="37" packages="1" files="3" classes="3"/>
     <file name="checkBoard.js" path="/home/rindra/Bureau/tictactest/test-tictac/src/logic/checkBoard.js">
       <metrics statements="16" coveredstatements="15" conditionals="11" coveredconditionals="9" methods="6" coveredmethods="6"/>
