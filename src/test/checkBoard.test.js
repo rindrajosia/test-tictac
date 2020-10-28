@@ -38,7 +38,6 @@ test('Draw game ', () => {
   gameBoard.setBoard(5);
   gameBoard.setBoard(6);
   gameBoard.setBoard(7);
-  console.log(gameBoard.getBoard());
   expect(checkBoard.drawGame()).toBe(true);
 });
 
