@@ -13,40 +13,32 @@ test('Board check winner first move', () => {
   expect(checkBoard.checkWin()).toBe(false);
 });
 
-test('Board set choice', () => {
-  gameBoard.setBoard(0);
-  expect(gameBoard.getBoard()).toEqual(['O', ' - ', ' - ', ' - ', ' - ', ' - ', ' - ', ' - ', ' - ']);
-});
-
-test('Board chech winner', () => {
-  expect(checkBoard.checkWin()).toBe(false);
-});
-
-test('Check winner (X) ', () => {
+test('Check winner (O) ', () => {
   gameBoard.setBoard(0);
   gameBoard.setBoard(3);
   gameBoard.setBoard(1);
   gameBoard.setBoard(4);
   gameBoard.setBoard(2);
   gameBoard.setBoard(8);
-  expect(checkBoard.checkWin()).toEqual('X');
+  expect(checkBoard.checkWin()).toEqual('O');
 });
 
-test('Get winner Name (Edie)', () => {
-  expect(checkBoard.getWinnerName(playerone, playertwo)).toEqual('Edie');
+test('Get winner Name (Josia)', () => {
+  expect(checkBoard.getWinnerName(playerone, playertwo)).toEqual('Josia');
 });
 
 
 test('Draw game ', () => {
   gameBoard.setBoard(0);
+  gameBoard.setBoard(8);
   gameBoard.setBoard(1);
   gameBoard.setBoard(2);
-  gameBoard.setBoard(4);
   gameBoard.setBoard(3);
+  gameBoard.setBoard(4);
   gameBoard.setBoard(5);
   gameBoard.setBoard(6);
   gameBoard.setBoard(7);
-  gameBoard.setBoard(8);
+  console.log(gameBoard.getBoard());
   expect(checkBoard.drawGame()).toBe(true);
 });
 

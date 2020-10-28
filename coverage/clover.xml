@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1603918479701" clover="3.2.0">
+  <project timestamp="1603918479701" name="All files">
+    <metrics statements="37" coveredstatements="36" conditionals="15" coveredconditionals="13" methods="21" coveredmethods="21" elements="73" coveredelements="70" complexity="0" loc="37" ncloc="37" packages="1" files="3" classes="3"/>
+    <file name="checkBoard.js" path="/home/rindra/Bureau/tictactest/test-tictac/src/logic/checkBoard.js">
+      <metrics statements="16" coveredstatements="15" conditionals="11" coveredconditionals="9" methods="6" coveredmethods="6"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="16" count="19" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="4" type="stmt"/>
+      <line num="20" count="18" type="stmt"/>
+      <line num="21" count="18" type="cond" truecount="5" falsecount="0"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="34" count="0" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+    </file>
+    <file name="gameBoard.js" path="/home/rindra/Bureau/tictactest/test-tictac/src/logic/gameBoard.js">
+      <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="11" count="261" type="stmt"/>
+      <line num="12" count="71" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="16" count="261" type="stmt"/>
+      <line num="17" count="84" type="stmt"/>
+      <line num="20" count="29" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="22" count="26" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="14" type="stmt"/>
+      <line num="25" count="12" type="stmt"/>
+      <line num="29" count="3" type="stmt"/>
+    </file>
+    <file name="player.js" path="/home/rindra/Bureau/tictactest/test-tictac/src/logic/player.js">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="4" type="stmt"/>
+    </file>
+  </project>
+</coverage>

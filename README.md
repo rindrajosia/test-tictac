@@ -45,13 +45,13 @@ Give a ⭐️ if you like this project!
 # Screenshot
 
 * Player name
-![screenshot](./1.png)
+* ![screenshot](./1.png)
 
 * Board game
-![screenshot](./2.png)
+* ![screenshot](./2.png)
 
 * Testing
-![screenshot](./screen.png)
+* ![screenshot](./screen.png)
 
 
 ## Authors
