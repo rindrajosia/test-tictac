@@ -1,6 +1,5 @@
 # TicTacToe JavaScript Project
-
-In this project we have made a Tic Tac Toe game you can play in your browser and add some tests with Jest!
+In this project, a Tic Tac Toe game was created (again) but this time it will be shown in the browser. The main objective is to put into practice the factory functions, the pattern of the module together with the main concepts of object-oriented programming and add some tests with Jest!
 
 
 ## Built with
